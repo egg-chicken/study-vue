@@ -1,0 +1,27 @@
+main {
+    width: 30rem;
+    margin: auto;
+    padding: 10rem;
+    line-height: 1.5rem;
+    color: gray;
+    font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+section {
+    margin-bottom: 10rem;
+}
+
+section > h1 {
+    font-size: 2rem;
+    border-bottom: solid 0.1rem;
+}
+
+section > h1 > .artist {
+    font-size: 0.4rem;
+}
+
+section > img {
+    width: 5rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}

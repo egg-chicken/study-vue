@@ -1,0 +1,17 @@
+<html lang="ja">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <main>
+        <article>
+            <section v-for="item in items">
+                <h1> {{ item.title }} <span class="artist"> {{ item.artist }} </span></h1>
+                <img style="float:left;" v-bind:src="item.image" v-bind:title="item.title">
+                <span>{{ item.comment }}</span>
+            </section>
+        </article>
+    </main>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="index.js"></script>
+n</html>
